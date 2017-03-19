@@ -34,7 +34,7 @@
         <hudson.model.StringParameterDefinition>
           <name>image</name>
           <description>用来测试题目的镜像名</description>
-          <defaultValue></defaultValue>
+          <defaultValue>node:5.8</defaultValue>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
