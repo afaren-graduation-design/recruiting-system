@@ -70,7 +70,6 @@ services:
       - ./nginx/conf.d:/etc/nginx/conf.d
       - ./nginx/files:/var/fs
       - ../web/public/assets:/var/twars/web
-      - ../teacher-admin-web/public/assets:/var/twars/teacher-admin-web
     networks:
       main:
         aliases:
