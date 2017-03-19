@@ -132,7 +132,7 @@ curl -H Content-Type:application/json -X PUT -d &quot;{\&quot;status\&quot;:4,\&
               <buildSteps>
                 <hudson.tasks.Shell>
                   <command>file=&quot;/tmp/result_detail_$BUILD_NUMBER&quot;
-if [ -f &quot;!$file&quot; ]
+if [ ! -f &quot;$file&quot; ]
 then
 echo  &quot;仓库不存在，请重新填写仓库地址！&quot; &gt; /tmp/result_detail_$BUILD_NUMBER 2&gt;&amp;1
 fi
