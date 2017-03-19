@@ -1,0 +1,13 @@
+[submodule "paper-api"]
+	path = paper-api
+	url = git@github.com:afaren-graduation-design/paper-api.git
+[submodule "web"]
+	path = web
+	url = git@github.com:afaren-graduation-design/web.git
+[submodule "web-api"]
+	path = web-api
+	url = git@github.com:afaren-graduation-design/web-api.git
+[submodule "automated-test"]
+	path = automated-test
+	url = git@github.com:afaren-graduation-design/automated-test.git
+
